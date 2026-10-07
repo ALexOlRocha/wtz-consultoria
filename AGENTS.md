@@ -1,0 +1,3 @@
+- Keep the public landing page at the index route, with GSAP animations initialized and cleaned up inside React effects, so SSR and route changes stay safe.
+- Store uploaded media as CDN asset pointers and import their URLs; keep only the small favicon binary in public to avoid repository media bloat.
+- Keep all landing-page visual roles in the global semantic token system and use the shared Button variants for actions to preserve brand consistency.
